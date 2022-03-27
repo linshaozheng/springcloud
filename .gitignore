@@ -1,0 +1,14 @@
+# 项目排除路径
+/cloud-api-commons/target/
+/cloud-config-center-3344/target/
+/cloud-consumer-feign-hystrix-order-80/target/
+/cloud-consumer-feign-order-80/target/
+/cloud-consumer-hystrix-dashboard-9001/target/
+/cloud-consumer-order-80/target/
+/cloud-eureka-server-7001/target/
+/cloud-eureka-server-7002/target/
+/cloud-gateway-geteway-9527/target/
+/cloud-provider-hystrix-payment-8001/target/
+/cloud-provider-payment-8001/target/
+/cloud-provider-payment-8002/target/
+/cloud-provider-payment-8004/target/
