@@ -9,11 +9,18 @@ spring:
     config:
       server:
         git:
-          uri: git@gitee.com:jangkeo/springcloud-config.git
+          uri: https://github.com/linshaozheng/springcloud-config.git
 #          uri: https://gitee.com:jangkeo/springcloud-config.git
+#          https://github.com/linshaozheng/springcloud-config.git
           search-paths:
             - springcloud-config
-      label: master
+      label: main
+
+rabbitmq:
+  host: 175.178.195.135
+  port: 5672
+  username: guest
+  password: guest
 
 eureka:
   client:
@@ -21,3 +28,12 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - 'bus-refresh'
+
+
